@@ -1,0 +1,18 @@
+## بطاقة المشروع (Project Card)
+- **مجموعة البيانات (Dataset):** Water Potability Quality
+- **المصدر (Source):** https://www.kaggle.com/datasets/adityakadiwal/water-potability
+- **حجم البيانات:** 3276 صفاً × 11 عموداً
+- **عمود الهدف (Target):** Potability
+- **نوع المهمة (Task):** تصنيف (Classification)
+- **الأعمدة المحذوفة:** لا يوجد
+- **أعمدة عولجت قيمها الناقصة:** ph, Sulfate, Trihalomethanes, ph_distance
+- **أعمدة نصية حُوّلت إلى أرقام (One-Hot):** لا يوجد
+- **عدد الخصائص بعد التجهيز:** 10
+- **التقسيم:** تدريب 2620 صفاً / اختبار 656 صفاً (20%)
+- **النموذج (Model):** الغابة العشوائية (RandomForestClassifier)
+- **الدقة على الاختبار (Accuracy):** 65.5%
+- **الدقة على التدريب:** 74.9%
+- **مرجع التخمين (Baseline):** 61.0%
+- **حفظ أم فهم؟** الأداء متقارب على التدريب والاختبار
+- **أهم 5 خصائص (Top Features):** Sulfate, ph, Chloramines, Hardness, Solids
+- **الأدوات:** Python, pandas, scikit-learn, matplotlib, Google Colab
